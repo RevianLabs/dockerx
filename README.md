@@ -1,7 +1,7 @@
 # DockerX
 X11 wrapper/alias for docker run
 
-DockerX is a proxy app for passing X11 through Docker. It passes every arguments towards docker/podman with the addition of -e DISPLAY=:0 for X11 forwarding.
+DockerX is a proxy app for passing X11 through Docker. It passes all arguments towards docker/podman with the addition of -e DISPLAY=:0 for X11 forwarding.
 
 # Requirements
 
