@@ -7,7 +7,7 @@
 
 void printUsage() {
     printf("DockerX Version %s\n", APP_VERSION);
-    printf("DockerX passes everything arguments towards docker/podman with the addition of -e DISPLAY=:0 for X11 forwarding\n");
+    printf("DockerX passes all arguments towards docker/podman with the addition of -e DISPLAY=:0 for X11 forwarding\n");
     printf("Requirements:\n"
            "\tDocker or Podman installed and available in your path.\n"
     );
